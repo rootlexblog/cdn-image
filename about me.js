@@ -106,12 +106,17 @@ var other = function() {
     }).then(function(res) {
         return botui.message.bot({
             delay: 1500,
-            content: "我的爱好嘛~~ 敲代码、玩滑板、看书、偶尔也会追一下番_(:з」∠)_"
+            content: "我的爱好嘛~~ 敲代码、玩滑板、看书_(:з」∠)_"
         })
     }).then(function(res) {
         return botui.message.bot({
+            delay: 900,
+            content: "偶尔也会追一下番"
+        })
+    })then(function(res) {
+        return botui.message.bot({
             delay: 1500,
-            content: "那么，仔细看看我的 [博客](http://rootlex.vipgz1.idcfengye.com/) 吧^_^"
+            content: "那么，仔细看看我的博客吧^_^"
         })
     });
 }
