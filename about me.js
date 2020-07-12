@@ -111,7 +111,7 @@ var other = function() {
     }).then(function(res) {
         return botui.message.bot({
             delay: 1500,
-            content: "那么，仔细看看我的[博客](http://rootlex.vipgz1.idcfengye.com/)吧^_^"
+            content: "那么，仔细看看我的![博客](http://rootlex.vipgz1.idcfengye.com/)吧^_^"
         })
     });
 }
