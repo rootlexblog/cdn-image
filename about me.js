@@ -113,7 +113,7 @@ var other = function() {
             delay: 900,
             content: "偶尔也会追一下番"
         })
-    })then(function(res) {
+    }).then(function(res) {
         return botui.message.bot({
             delay: 1500,
             content: "那么，仔细看看我的博客吧^_^"
